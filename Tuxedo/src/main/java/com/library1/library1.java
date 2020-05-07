@@ -12,13 +12,13 @@ import org.openqa.selenium.chrome.ChromeDriver;
 		FileInputStream fis;
 		Properties prop;
 			public void launchApp() throws IOException  {
-				 fis=new FileInputStream("C:\\Users\\neomu\\eclipse-workspace\\Tuxedo\\configurationproperty\\config.property");
+				 fis=new FileInputStream("C:\\Users\\neomu\\git\\JAVA\\Tuxedo\\configurationproperty\\config.property");
 				prop=new Properties();
 				prop.load(fis);
 				String browser=prop.getProperty("browser");
 		String url=prop.getProperty("url");
 				
-				System.setProperty("webdriver.chrome.driver", "C:\\Users\\neomu\\eclipse-workspace\\BMW\\Drivers\\chromedriver.exe");
+				System.setProperty("webdriver.chrome.driver", "C:\\Users\\neomu\\git\\JAVA\\Tuxedo\\Drivers\\chromedriver.exe");
 				 driver = new ChromeDriver();
 			//	driver = new FirefoxDriver();
 			System.out.println("Chrome Browser is launched");

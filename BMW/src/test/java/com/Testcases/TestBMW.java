@@ -17,14 +17,14 @@ public class TestBMW extends Library {
 		}
 
 		@Test
-		public void Model() {
+		public void Model() throws Throwable {
 			demo=new Bmwclass(driver);
 		demo.Model();
 		demo.link();
 		demo.image();
 		demo.technicaldata();
-	//	demo.speed();
-		//demo.condition();
+	demo.speed();
+		demo.condition();
 		
 		
 		}

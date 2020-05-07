@@ -27,8 +27,7 @@ public class TestTuxedo  extends library1 {
 		lpage.size1();
 		lpage.Quantity();
 		lpage.addtocart();
-		
-	//	lpage.loginToApp_loginbtn();
+		lpage.find();
 		
 		}
 		

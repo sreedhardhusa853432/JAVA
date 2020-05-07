@@ -21,9 +21,9 @@ public class Bmwclass extends Library {
 		int i;
 		By Models = By.xpath("/html/body/div[1]/div[2]/div/div/div[1]/div[3]/div/div[2]/div[1]/a/span[2]");
 		By seven=By.xpath("//*[@id=\'pad2\']/nav/div/ul/li[4]/a");
-		By image = By.xpath("/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[5]/div[1]/div[1]/a[1]");
-		By technicaldata = By.xpath("/html/body/div[5]/main/div[1]/div[5]/div/div/div/div/div/div[4]/nav/div/div[3]/a");		
-		By horsepower = By.xpath("//*[@id=\"top-of-content\"]/div/div[3]/div/div/div[2]/section[1]/div[3]/div/div[1]/div/table/tbody/tr[4]/td[2]/div");
+		By image = By.xpath("//*[@id=\'ds2-model-cars\']/div[5]/div/div[1]/a");
+		By technicaldata = By.xpath("/html/body/div[5]/main/div[1]/div[6]/div/div[4]/div/div[3]/div[3]/a");		
+		By horsepower = By.xpath("/html[1]/body[1]/div[5]/main[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[2]/section[1]/div[3]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[4]/td[2]/div[1]");
 		public Bmwclass(WebDriver driver)
 		{
 this.driver=driver;		}
@@ -41,12 +41,12 @@ this.driver=driver;		}
 	}
 	
 	
-		public void image()
+		public void image() throws Throwable
 		{
 				WebDriverWait wait=new WebDriverWait(driver,20);
 				wait.until(ExpectedConditions.elementToBeClickable(image));
 			Actions action = new Actions(driver);
-			action.moveToElement(driver.findElement(By.xpath("//div[contains(@class,'ds2-model-card--image')]//a"))).build().perform();
+			action.moveToElement(driver.findElement(By.xpath("//*[@id=\'ds2-model-cars\']/div[5]/div/div[1]/a"))).build().perform();
 		driver.findElement(image).click();
 			System.out.println("Image is Clicked");
 		}
@@ -54,8 +54,10 @@ this.driver=driver;		}
 		{
 			driver.findElement(technicaldata).click();
 		}
-	/*	public void speed()
+	public void speed()
 		{
+		WebDriverWait wait=new WebDriverWait(driver,15);
+		wait.until(ExpectedConditions.elementToBeClickable(driver.findElement(horsepower)));
 			String b = driver.findElement(horsepower).getText();
 			System.out.println(b);
 			System.out.println(b.length());
@@ -94,7 +96,5 @@ this.driver=driver;		}
 				Assert.assertTrue(true, "Meet my requirements");
 			}
 		}
-		
-*/
 
 	}

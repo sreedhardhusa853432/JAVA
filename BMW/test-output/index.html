@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Suite">
-                    <span>C:\Users\neomu\eclipse-workspace\BMW\testng.xml</span>
+                    <span>C:\Users\neomu\git\JAVA\BMW\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -128,25 +128,17 @@
                   <a name="Model">
                   </a> <!-- Model -->
                   <span class="method-name">Model</span>
-                  <div class="stack-trace">org.openqa.selenium.JavascriptException: javascript error: Failed to execute &apos;elementsFromPoint&apos; on &apos;Document&apos;: The provided double value is non-finite.
-  (Session info: chrome=81.0.4044.122)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:48&apos;
-System info: host: &apos;DESKTOP-QTMMO97&apos;, ip: &apos;192.168.0.105&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.122, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\neomu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52660}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: e2913f4dc1feb91bb86da96ee0a83e37
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:618)
-	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:639)
-	at com.pages.Bmwclass.image(Bmwclass.java:49)
-	at com.Testcases.TestBMW.Model(TestBMW.java:24)
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: org/apache/xmlbeans/XmlObject
+	at com.pages.Bmwclass.condition(Bmwclass.java:76)
+	at com.Testcases.TestBMW.Model(TestBMW.java:27)
 	at java.util.ArrayList.forEach(Unknown Source)
-... Removed 31 stack frames
+Caused by: java.lang.ClassNotFoundException: org.apache.xmlbeans.XmlObject
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 30 more
+... Removed 27 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -155,7 +147,7 @@ Session ID: e2913f4dc1feb91bb86da96ee0a83e37
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\neomu\eclipse-workspace\BMW\testng.xml</span>
+            <span class="header-content">C:\Users\neomu\git\JAVA\BMW\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -210,12 +202,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'Model')
 data.setCell(0, 2, 'com.Testcases.TestBMW')
-data.setCell(0, 3, 1654);
+data.setCell(0, 3, 9177);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 seconds</span>
+              <span class="suite-total-time">Total running time: 9 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -250,7 +242,7 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">Model</span>
-                <span class="method-start">10882 ms</span>
+                <span class="method-start">13375 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

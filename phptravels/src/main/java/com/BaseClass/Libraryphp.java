@@ -12,13 +12,13 @@ public class Libraryphp {
 		FileInputStream fis;
 		Properties prop;
 			public void launchApp() throws IOException  {
-				 fis=new FileInputStream("C:\\Users\\neomu\\eclipse-workspace\\phptravels\\configurationproperty\\config.property");
+				 fis=new FileInputStream("C:\\Users\\neomu\\git\\JAVA\\phptravels\\configurationproperty\\config.property");
 				prop=new Properties();
 				prop.load(fis);
 				String browser=prop.getProperty("browser");
 		String url=prop.getProperty("url");
 				
-				System.setProperty("webdriver.chrome.driver", "C:\\Users\\neomu\\eclipse-workspace\\BMW\\Drivers\\chromedriver.exe");
+				System.setProperty("webdriver.chrome.driver", "C:\\Users\\neomu\\git\\JAVA\\phptravels\\Drivers\\chromedriver.exe");
 				 driver = new ChromeDriver();
 			//	driver = new FirefoxDriver();
 			System.out.println("Chrome Browser is launched");

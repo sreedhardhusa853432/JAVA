@@ -2,48 +2,24 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="12590" started-at="2020-04-26T17:07:37 IST" finished-at="2020-04-26T17:07:49 IST">
+  <suite name="Suite" duration-ms="22611" started-at="2020-05-07T11:26:23 IST" finished-at="2020-05-07T11:26:46 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="12590" started-at="2020-04-26T17:07:37 IST" finished-at="2020-04-26T17:07:49 IST">
+    <test name="Test" duration-ms="22611" started-at="2020-05-07T11:26:23 IST" finished-at="2020-05-07T11:26:46 IST">
       <class name="com.Testcases.TestBMW">
-        <test-method status="PASS" signature="startUp()[pri:0, instance:com.Testcases.TestBMW@69a3d1d]" name="startUp" is-config="true" duration-ms="10856" started-at="2020-04-26T17:07:37 IST" finished-at="2020-04-26T17:07:48 IST">
+        <test-method status="PASS" signature="startUp()[pri:0, instance:com.Testcases.TestBMW@69a3d1d]" name="startUp" is-config="true" duration-ms="13349" started-at="2020-05-07T11:26:23 IST" finished-at="2020-05-07T11:26:36 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method status="FAIL" signature="Model()[pri:0, instance:com.Testcases.TestBMW@69a3d1d]" name="Model" duration-ms="1654" started-at="2020-04-26T17:07:48 IST" finished-at="2020-04-26T17:07:49 IST">
-          <exception class="org.openqa.selenium.JavascriptException">
+        <test-method status="FAIL" signature="Model()[pri:0, instance:com.Testcases.TestBMW@69a3d1d]" name="Model" duration-ms="9177" started-at="2020-05-07T11:26:37 IST" finished-at="2020-05-07T11:26:46 IST">
+          <exception class="java.lang.NoClassDefFoundError">
             <message>
-              <![CDATA[javascript error: Failed to execute 'elementsFromPoint' on 'Document': The provided double value is non-finite.
-  (Session info: chrome=81.0.4044.122)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'DESKTOP-QTMMO97', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.122, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\neomu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52660}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: e2913f4dc1feb91bb86da96ee0a83e37]]>
+              <![CDATA[org/apache/xmlbeans/XmlObject]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.JavascriptException: javascript error: Failed to execute 'elementsFromPoint' on 'Document': The provided double value is non-finite.
-  (Session info: chrome=81.0.4044.122)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'DESKTOP-QTMMO97', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.122, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\neomu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52660}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: e2913f4dc1feb91bb86da96ee0a83e37
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-at java.lang.reflect.Constructor.newInstance(Unknown Source)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:618)
-at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:639)
-at com.pages.Bmwclass.image(Bmwclass.java:49)
-at com.Testcases.TestBMW.Model(TestBMW.java:24)
+              <![CDATA[java.lang.NoClassDefFoundError: org/apache/xmlbeans/XmlObject
+at com.pages.Bmwclass.condition(Bmwclass.java:76)
+at com.Testcases.TestBMW.Model(TestBMW.java:27)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -72,9 +48,15 @@ at org.testng.TestNG.run(TestNG.java:1007)
 at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.ClassNotFoundException: org.apache.xmlbeans.XmlObject
+at java.net.URLClassLoader.findClass(Unknown Source)
+at java.lang.ClassLoader.loadClass(Unknown Source)
+at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+at java.lang.ClassLoader.loadClass(Unknown Source)
+... 30 more
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.JavascriptException -->
+          </exception> <!-- java.lang.NoClassDefFoundError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Model -->

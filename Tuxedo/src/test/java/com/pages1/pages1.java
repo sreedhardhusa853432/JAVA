@@ -24,6 +24,7 @@ import org.testng.Assert;
 			By Range=By.xpath("//option[contains(text(),'36S 29')]");
 		By quantity=By.xpath("//p[contains(text(),'+')]");
 			By Addtocart=By.xpath("//input[@id='addtobagID']");
+			By finding=By.xpath("//span[@class='number-items boss-number-items nonzero-items']");
 		public  pages1(WebDriver driver) 
 			{
 				this.driver =driver;
@@ -100,7 +101,7 @@ import org.testng.Assert;
 			//	WebElement Size=driver.findElement(Range);
 				//Size.click();
 				try {
-			WebElement Size=driver.findElement(By.xpath("//option[contains(text(),'36S 29')]"));
+					WebElement Size=driver.findElement(By.xpath("//option[contains(text(),'36S 29')]"));
 					Size.click();
 				List<WebElement> options = Size.findElements(By.tagName("option"));
 				for (WebElement option : options) {
@@ -113,18 +114,25 @@ import org.testng.Assert;
 					Size.click();
 				List<WebElement> options = Size.findElements(By.tagName("option"));
 				for (WebElement option : options) {
-				if("36S 29".equals(option.getText()))
+					if("36S 29".equals(option.getText()))
 					((WebElement) options).click();
 				}
 				}
 	}
 			public void Quantity()
 			{
+				try {
 				WebDriverWait wait=new WebDriverWait(driver,15);
 				wait.until(ExpectedConditions.elementToBeClickable(driver.findElement(quantity)));
 				WebElement feature2=driver.findElement(quantity);
 				feature2.click();
-				
+				}
+				catch(StaleElementReferenceException e){
+					WebDriverWait wait=new WebDriverWait(driver,15);
+					wait.until(ExpectedConditions.elementToBeClickable(driver.findElement(quantity)));
+					WebElement feature2=driver.findElement(quantity);
+					feature2.click();
+				}
 			}
 			public void addtocart()
 			{
@@ -141,7 +149,21 @@ import org.testng.Assert;
 			}
 			public void assertions() {
 				WebElement cart=driver.findElement(By.xpath("//*[@id=\\'tr_phase2_ShoppingBg\\']/span[2]"));
-				Assert.assertEquals(cart.isDisplayed(), true);
 			}
-			
+			public void find() {
+				String str= driver.findElement(finding).getText();
+				System.out.println(str);
+				System.out.println("True");
+				int i=Integer.parseInt(str);
+				if(i==2) {
+					Assert.assertTrue(true);
+					System.out.println("True");
+					System.out.println("The bag is full");
+				}
+				else {
+					Assert.assertTrue(true);
+					System.out.println("The bag is not full");
+				}
+				
+			}
 		}
