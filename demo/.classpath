@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="src" path="src/main/resources"/>
+	<classpathentry kind="src" path="src/test/java"/>
+	<classpathentry kind="src" path="src/test/resources"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="C:/Users/neomu/Downloads/selenium-java-3.141.59/client-combined-3.141.59.jar"/>
+	<classpathentry kind="lib" path="C:/Users/neomu/Downloads/selenium-java-3.141.59/client-combined-3.141.59-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/neomu/Downloads/selenium-java-3.141.59/libs/byte-buddy-1.8.15.jar"/>
+	<classpathentry kind="lib" path="C:/Users/neomu/Downloads/selenium-java-3.141.59/libs/commons-exec-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/neomu/Downloads/selenium-java-3.141.59/libs/guava-25.0-jre.jar"/>
+	<classpathentry kind="lib" path="C:/Users/neomu/Downloads/selenium-java-3.141.59/libs/okhttp-3.11.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/neomu/Downloads/selenium-java-3.141.59/libs/okio-1.14.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/neomu/Downloads/Apache poi3.17/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="C:/Users/neomu/Downloads/Apache poi3.17/commons-collections4-4.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/neomu/Downloads/Apache poi3.17/poi-3.17.jar"/>
+	<classpathentry kind="lib" path="C:/Users/neomu/Downloads/GUICE/guice-4.2.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/neomu/Downloads/org.testng 6.8/bsh-2.0b4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/neomu/Downloads/org.testng 6.8/hamcrest-core-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/neomu/Downloads/org.testng 6.8/jcommander-1.27.jar"/>
+	<classpathentry kind="lib" path="C:/Users/neomu/Downloads/org.testng 6.8/junit-4.10.jar"/>
+	<classpathentry kind="lib" path="C:/Users/neomu/Downloads/org.testng 6.8/snakeyaml-1.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/neomu/Downloads/org.testng 6.8/testng-6.8.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/neomu/Downloads/commons io 2.6/commons-io-2.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/neomu/Downloads/extent reports 3.1.2 (avent stack)/bson-3.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/neomu/Downloads/extent reports 3.1.2 (avent stack)/commons-codec-1.9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/neomu/Downloads/extent reports 3.1.2 (avent stack)/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/neomu/Downloads/extent reports 3.1.2 (avent stack)/extentreports-3.1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/neomu/Downloads/extent reports 3.1.2 (avent stack)/freemarker-2.3.23.jar"/>
+	<classpathentry kind="lib" path="C:/Users/neomu/Downloads/extent reports 3.1.2 (avent stack)/gson-2.8.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/neomu/Downloads/extent reports 3.1.2 (avent stack)/httpclient-4.5.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/neomu/Downloads/extent reports 3.1.2 (avent stack)/httpcore-4.4.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/neomu/Downloads/extent reports 3.1.2 (avent stack)/httpmime-4.5.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/neomu/Downloads/extent reports 3.1.2 (avent stack)/jsoup-1.9.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/neomu/Downloads/extent reports 3.1.2 (avent stack)/mongodb-driver-3.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/neomu/Downloads/extent reports 3.1.2 (avent stack)/mongodb-driver-core-3.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/neomu/Downloads/junit 4.12/hamcrest-core-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/neomu/Downloads/junit 4.12/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="C:/Users/neomu/Downloads/log 4j 1.2.17/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="C:/Users/neomu/Downloads/extent reports 2.41.2 (relevant codes)/bson-3.0.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/neomu/Downloads/extent reports 2.41.2 (relevant codes)/extentreports-2.41.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/neomu/Downloads/extent reports 2.41.2 (relevant codes)/freemarker-2.3.23.jar"/>
+	<classpathentry kind="lib" path="C:/Users/neomu/Downloads/extent reports 2.41.2 (relevant codes)/jsoup-1.8.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/neomu/Downloads/extent reports 2.41.2 (relevant codes)/mongodb-driver-3.0.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/neomu/Downloads/extent reports 2.41.2 (relevant codes)/mongodb-driver-core-3.0.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/neomu/Downloads/extent reports 2.41.2 (relevant codes)/sqlite-jdbc-3.8.11.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/neomu/Downloads/extent reports 3.1.2/bson-3.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/neomu/Downloads/extent reports 3.1.2/commons-codec-1.9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/neomu/Downloads/extent reports 3.1.2/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/neomu/Downloads/extent reports 3.1.2/extentreports-3.1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/neomu/Downloads/extent reports 3.1.2/freemarker-2.3.23.jar"/>
+	<classpathentry kind="lib" path="C:/Users/neomu/Downloads/extent reports 3.1.2/gson-2.8.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/neomu/Downloads/extent reports 3.1.2/httpclient-4.5.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/neomu/Downloads/extent reports 3.1.2/httpcore-4.4.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/neomu/Downloads/extent reports 3.1.2/httpmime-4.5.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/neomu/Downloads/extent reports 3.1.2/jsoup-1.9.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/neomu/Downloads/extent reports 3.1.2/mongodb-driver-3.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/neomu/Downloads/extent reports 3.1.2/mongodb-driver-core-3.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/neomu/Downloads/extent reports 4.0.8(avent stack)/bson-3.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/neomu/Downloads/extent reports 4.0.8(avent stack)/commons-codec-1.9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/neomu/Downloads/extent reports 4.0.8(avent stack)/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/neomu/Downloads/extent reports 4.0.8(avent stack)/extentreports-4.0.8.jar"/>
+	<classpathentry kind="lib" path="C:/Users/neomu/Downloads/extent reports 4.0.8(avent stack)/freemarker-2.3.23.jar"/>
+	<classpathentry kind="lib" path="C:/Users/neomu/Downloads/extent reports 4.0.8(avent stack)/gson-2.8.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/neomu/Downloads/extent reports 4.0.8(avent stack)/httpclient-4.5.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/neomu/Downloads/extent reports 4.0.8(avent stack)/httpcore-4.4.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/neomu/Downloads/extent reports 4.0.8(avent stack)/httpmime-4.5.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/neomu/Downloads/extent reports 4.0.8(avent stack)/mongodb-driver-3.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/neomu/Downloads/extent reports 4.0.8(avent stack)/mongodb-driver-core-3.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/neomu/Downloads/junit 4.13/hamcrest-core-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/neomu/Downloads/junit 4.13/junit-4.13-beta-1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/neomu/Downloads/log 4j 2.8.2 core/log4j-api-2.8.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/neomu/Downloads/log 4j 2.8.2 core/log4j-core-2.8.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/neomu/Downloads/log 4j 2.13.2/bson-3.12.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/neomu/Downloads/log 4j 2.13.2/log4j-api-2.13.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/neomu/Downloads/log 4j 2.13.2/log4j-core-2.13.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/neomu/Downloads/log 4j 2.13.2/log4j-mongodb3-2.13.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/neomu/Downloads/log 4j 2.13.2/mongodb-driver-3.12.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/neomu/Downloads/log 4j 2.13.2/mongodb-driver-core-3.12.1.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
