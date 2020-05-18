@@ -1,0 +1,47 @@
+[0518/112910.330:ERROR:process_reader_win.cc(182)] ResumeThread: The parameter is incorrect. (0x57)
+[0518/112910.332:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0518/112910.332:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0518/112910.332:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0518/112910.332:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0518/112910.332:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0518/112910.332:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0518/112910.332:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0518/112910.333:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0518/112910.363:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fff9b733648 of 36 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0518/112910.363:WARNING:pe_image_reader.cc(191)] could not read debug directory from C:\Windows\SYSTEM32\SSPICLI.DLL
+[0518/112910.363:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fff9b710000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0518/112910.363:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\SYSTEM32\SSPICLI.DLL
+[0518/112910.363:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fff9be70000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0518/112910.363:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\System32\windows.storage.dll
+[0518/112910.363:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fff9be70000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0518/112910.363:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\System32\windows.storage.dll
+[0518/112910.363:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fff9b870000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0518/112910.363:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\System32\powrprof.dll
+[0518/112910.363:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fff9b870000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0518/112910.363:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\System32\powrprof.dll
+[0518/112910.363:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fff9b820000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0518/112910.363:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\System32\UMPDC.dll
+[0518/112910.363:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fff9b820000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0518/112910.363:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\System32\UMPDC.dll
+[0518/112910.364:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fff9bad0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0518/112910.364:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\System32\win32u.dll
+[0518/112910.364:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fff9bad0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0518/112910.364:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\System32\win32u.dll
+[0518/112910.364:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fff9bba0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0518/112910.364:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\System32\cryptsp.dll
+[0518/112910.364:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fff9bba0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0518/112910.364:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\System32\cryptsp.dll
+[0518/112910.364:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fff9b260000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0518/112910.364:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\SYSTEM32\CRYPTBASE.DLL
+[0518/112910.364:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fff9b260000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0518/112910.364:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\SYSTEM32\CRYPTBASE.DLL
+[0518/112910.364:ERROR:process_memory_win.cc(73)] ReadMemory at 0x215c6162b10 of 6656 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0518/112910.364:ERROR:process_snapshot_win.cc(322)] failed to read unloaded module data
+[0518/112910.365:ERROR:file_io_win.cc(161)] CreateFile C:\Users\durga\AppData\Local\Temp\scoped_dir2860_1727541912\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0518/112910.365:ERROR:file_io_win.cc(170)] CreateFile C:\Users\durga\AppData\Local\Temp\scoped_dir2860_1727541912\Crashpad\reports\b7ad4563-d79b-4e3e-bc94-0fc291cbb67a.dmp: The system cannot find the path specified. (0x3)
+[0518/112910.365:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[0518/112910.366:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: An attempt was made to access an exiting process. (0xc000010a)
+[0518/114259.351:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0518/114259.368:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0518/114259.368:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0518/114259.368:ERROR:exception_snapshot_win.cc(98)] thread ID 11800 not found in process
